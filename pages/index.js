@@ -6,7 +6,9 @@ class Index extends React.Component {
         return(
             <div>
                 <h1>Hello World!</h1>
-                <Link href='/Other'>Home</Link>
+                <Link href='/Other'>
+                    <a>Oher page</a>
+                </Link>
             </div>
         )
     }

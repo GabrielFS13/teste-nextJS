@@ -4,7 +4,9 @@ export default function Other(){
     return(
         <div>
             <h2>Other Page</h2>
-            <Link href="/">Back to Home Page</Link>
+            <Link href="/">
+                <a>Back to home page</a>
+            </Link>
         </div>
     )
 }
