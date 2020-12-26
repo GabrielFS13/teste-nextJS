@@ -1,17 +1,13 @@
-import React from 'react';
-import Link  from 'next/link';
+import Header from './components/Header'
 
-class Index extends React.Component {
-    render() {
-        return(
-            <div>
-                <h1>Hello World!</h1>
-                <Link href='/Other'>
-                    <a>Oher page</a>
-                </Link>
-            </div>
-        )
-    }
+const App = () => {
+    return(
+        <div>
+            <h1>Hello World!</h1>
+                <Header />
+        </div>
+    )
 }
+  
 
-export default Index
+export default App
