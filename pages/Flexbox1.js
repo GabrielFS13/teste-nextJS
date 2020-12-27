@@ -1,36 +1,38 @@
-import Link  from 'next/link';
+import Menu from './components/Menu'
+import Img1 from '../img/confused.jpg';
+
 export default function Flexbox1(){
     return(
-        <>
-            <header>
-                <Link href="/Flexbox1">
-                    <a>Logo</a>
-                </Link>
-                <nav>
-                    <ul className="menu">
-                        <li>
-                            <Link href="#">
-                                <a>Sobre</a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#">
-                                <a>Produtos</a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#">
-                                <a>Contato</a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="/">
-                                <a>Voltar</a>
-                            </Link>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
-        </>
+        <div className="flexbox1">
+            <Menu />
+            <h1>Flexbox</h1>
+
+            <section className="flex">
+                <div>
+                <img src={Img1} />
+                    <p></p>
+                </div>
+                <div>
+                    <img src />
+                    <p></p>
+                </div>
+                <div>
+                    <img src />
+                    <p></p>
+                </div>
+                <div>
+                    <img src />
+                    <p></p>
+                </div>
+                <div>
+                    <img src />
+                    <p></p>
+                </div>
+                <div>
+                    <img src />
+                    <p></p>
+                </div>
+            </section>
+        </div>
     )
 }
