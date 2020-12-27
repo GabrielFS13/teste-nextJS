@@ -9,8 +9,14 @@ export default function Header(){
             <Link href="/Flexbox1">
                 <a>Flexbox exemple 1</a>
             </Link>
-            <Link href="">
-                <a>Flexbox exemple 2</a>
+            <Link href="/Grid">
+                <a>Grid exemple 1</a>
+            </Link>
+            <Link href="/Grid2">
+                <a>Grid exemple 2</a>
+            </Link>
+            <Link href="/Grid3">
+                <a>Grid exemple 3</a>
             </Link>
         </div>
     )

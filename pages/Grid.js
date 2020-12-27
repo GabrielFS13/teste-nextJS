@@ -5,13 +5,12 @@ import Img3 from '../img/pai_da_coraline.jpg';
 import Img4 from '../img/padoruKazuma.jpg';
 import Img5 from '../img/salvo.png';
 
-export default function Flexbox1(){
+export default function Grid(){
     return(
-        <div className="flexbox1">
+        <div className="grid">
             <Menu />
-            <h1>Flexbox</h1>
-
-            <section className="flex">
+            <h1>Grid 1</h1>
+            <section className="grid1">
                 <div>
                 <img src={Img1} />
                     <p>Legenda 1</p>
@@ -35,6 +34,22 @@ export default function Flexbox1(){
                 <div>
                     <img src={Img2} />
                     <p>Legenda 6</p>
+                </div>
+                <div>
+                    <img src={Img4} />
+                    <p>Legenda 4</p>
+                </div>
+                <div>
+                    <img src={Img3} />
+                    <p>Legenda 5</p>
+                </div>
+                <div>
+                    <img src={Img2} />
+                    <p>Legenda 6</p>
+                </div>
+                <div className="anuncio">
+                    <img src={Img2} />
+                    <p>Anuncio</p>
                 </div>
             </section>
         </div>
