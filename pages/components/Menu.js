@@ -1,9 +1,12 @@
 import Link  from 'next/link';
+import img from './salvo.png';
 export default function Menu(){ 
     return(
         <header className="header">
                 <Link href="#">
-                    <a>Logo</a>
+                    <div className="logo-item">
+                    <a><img src={img}/></a>
+                    </div>
                 </Link>
                 <nav>
                     <ul className="menu">
