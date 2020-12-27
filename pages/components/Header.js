@@ -18,9 +18,6 @@ export default function Header(){
             <Link href="/Grid3">
                 <a>Grid exemple 3</a>
             </Link>
-            <Link href="/StyledComponents">
-                <a>StyledComponents</a>
-            </Link>
         </div>
     )
 }
