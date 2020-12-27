@@ -2,7 +2,7 @@ import Link  from 'next/link';
 export default function Menu(){ 
     return(
         <header className="header">
-                <Link href="/Flexbox1">
+                <Link href="#">
                     <a>Logo</a>
                 </Link>
                 <nav>

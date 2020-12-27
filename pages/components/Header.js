@@ -2,7 +2,7 @@ import Link  from 'next/link';
 
 export default function Header(){
     return(
-        <div>
+        <div className="main-header">
             <Link href='/Other'>
                 <a>Oher page</a>
             </Link>
