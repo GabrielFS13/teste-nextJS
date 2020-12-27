@@ -1,19 +1,15 @@
-/* CSS GRID 1*/
+import  styled from 'styled-components'
 
-.grid h1 {
-  text-align: center;
-  margin-top: 100px;
-}
-
-.grid1 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  max-width: 800px;
-  margin: 0 auto;
-  grid-gap: 20px;
-}
-
-.grid1 > div:nth-child(n + 4) {
+export const Grid_Style = styled.h1`
+    margin: 0px;
+    .grid1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 800px;
+    margin: 0 auto;
+    grid-gap: 20px;
+  }
+  .grid1 > div:nth-child(n + 4) {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
@@ -24,6 +20,9 @@
   grid-row: 2 / 5;
   display: block;
   border-top: 10px solid gold;
+}
+p{
+    font-weight: normal;
 }
 @media (max-width: 720px) {
   .grid1 {
@@ -38,3 +37,10 @@
     order: -1;
   }
 }
+`;
+
+
+export const Title = styled.h1`
+  margin-top: 100px;
+  text-align: center;
+`

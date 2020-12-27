@@ -4,12 +4,13 @@ import Img2 from '../img/photo.jpg';
 import Img3 from '../img/pai_da_coraline.jpg';
 import Img4 from '../img/padoruKazuma.jpg';
 import Img5 from '../img/salvo.png';
+import { Grid_Style, Title } from '../styles/grid1'
 
 export default function Grid(){
     return(
-        <div className="grid">
+        <Grid_Style>
             <Menu />
-            <h1>Grid 1</h1>
+            <Title>Grid 1</Title>
             <section className="grid1">
                 <div>
                 <img src={Img1} />
@@ -52,6 +53,6 @@ export default function Grid(){
                     <p>Anuncio</p>
                 </div>
             </section>
-        </div>
+        </Grid_Style>
     )
 }
