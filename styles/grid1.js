@@ -1,6 +1,6 @@
 import  styled from 'styled-components'
 
-export const Grid_Style = styled.h1`
+export const Grid_Style = styled.div`
     margin: 0px;
     .grid1{
     display: grid;

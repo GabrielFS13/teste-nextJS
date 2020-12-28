@@ -12,7 +12,7 @@ export default function Flexbox1(){
         <>
             <div className="flexbox1">
                 <Menu />
-                <Title><h1>Flexbox</h1></Title>
+                <Title>Flexbox</Title>
             <Flexbox>
                 <section className="flex">
                     <div>

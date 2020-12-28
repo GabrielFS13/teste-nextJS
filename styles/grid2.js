@@ -1,9 +1,8 @@
-/*CSS GRID 2*/
-.grid-2 h1 {
-  text-align: center;
-  margin-top: 100px;
-}
-.grid2 {
+import  styled from 'styled-components'
+
+
+export const Grid2_Style = styled.div`
+    .grid2 {
   display: grid;
   grid-template-columns: 1fr 200px;
   grid-gap: 20px;
@@ -33,3 +32,10 @@
     padding: 15px;
   }
 }
+
+`
+
+export const Title = styled.h1`
+  margin-top: 100px;
+  text-align: center;
+`

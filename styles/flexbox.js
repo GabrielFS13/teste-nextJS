@@ -1,14 +1,12 @@
 import  styled from 'styled-components';
 
 export const Title = styled.h1`
-    h1{
     text-align: center;
     margin-top: 100px;
-    }
-
+    
 `
 
-export const Flexbox = styled.h1`
+export const Flexbox = styled.div`
 .flex div img {
   width: 100%;
 }

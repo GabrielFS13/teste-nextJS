@@ -1,11 +1,7 @@
-/*CSS GRID 3*/
+import styled from 'styled-components'
 
-.grid-3 h1 {
-  text-align: center;
-  margin-top: 100px;
-}
-
-.grid3 {
+export const Grid3_Style = styled.div`
+    .grid3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
@@ -36,3 +32,9 @@
 .confused {
   height: 100%;
 }
+`
+
+export const Title = styled.h1`
+  text-align: center;
+  margin-top: 100px;
+`
