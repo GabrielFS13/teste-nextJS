@@ -1,16 +1,23 @@
 import Menu from './components/Menu';
+import img from '../img/salvo.png'
 import Img1 from '../img/confused.jpg';
 import Img2 from '../img/photo.jpg';
 import Img3 from '../img/pai_da_coraline.jpg';
 import Img4 from '../img/padoruKazuma.jpg';
 import Img5 from '../img/salvo.png';
 import { Title, Flexbox } from '../styles/flexbox'
+import Head from 'next/head'
+
 
 
 export default function Flexbox1(){
     return(
         <>
             <div className="flexbox1">
+            <Head>
+                <title>Meu Site - Flexbox</title>
+                <link rel="icon" href={img} />
+            </Head>
                 <Menu />
                 <Title>Flexbox</Title>
             <Flexbox>
