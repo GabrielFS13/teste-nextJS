@@ -1,22 +1,20 @@
 import Link  from 'next/link';
+import {Button} from '../../styles/header'
 
 export default function Header(){
     return(
         <div className="main-header">
-            <Link href='/Other'>
-                <a>Oher page</a>
-            </Link>
             <Link href="/Flexbox1">
-                <a>Flexbox exemple 1</a>
+                <Button>Flexbox exemple 1</Button>
             </Link>
             <Link href="/Grid">
-                <a>Grid exemple 1</a>
+                <Button>Grid exemple 1</Button>
             </Link>
             <Link href="/Grid2">
-                <a>Grid exemple 2</a>
+                <Button>Grid exemple 2</Button>
             </Link>
             <Link href="/Grid3">
-                <a>Grid exemple 3</a>
+                <Button>Grid exemple 3</Button>
             </Link>
         </div>
     )
