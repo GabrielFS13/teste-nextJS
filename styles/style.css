@@ -1,12 +1,12 @@
-body,
-ul,
-li,
-p {
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
   list-style: none;
   font-size: 1.2rem;
-  font-family: Arial;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 .logo-item {
   width: 3rem;

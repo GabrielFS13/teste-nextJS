@@ -6,5 +6,7 @@ export const Button = styled.a`
         text-decoration: underline;
         color: gold;
         cursor: pointer;
+        transform: scale(0.9);
+        transition: all .4s;
         }
 `

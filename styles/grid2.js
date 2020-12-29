@@ -16,6 +16,10 @@ export const Grid2_Style = styled.div`
 .sidebar div img {
   width: 100%;
 }
+.sidebar div:hover{
+  transition: all .2s;
+  transform: scale(0.9);
+}
 @media (max-width: 720px) {
   .grid2 {
     grid-template-columns: 1fr;
