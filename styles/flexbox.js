@@ -22,9 +22,18 @@ export const Flexbox = styled.div`
 }
 .flex > div {
   flex: 1 1 200px;
-  margin: 10px;
+  margin: 15px;
 }
 p{
     font-weight: normal;
 }
+`
+
+export const Bg = styled.div`
+    width: 800px;
+    margin: 0 auto;
+    background-color: #B8E1FF;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-bottom: 15px;
 `

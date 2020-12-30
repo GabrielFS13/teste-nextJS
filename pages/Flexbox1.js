@@ -5,20 +5,21 @@ import Img2 from '../img/photo.jpg';
 import Img3 from '../img/pai_da_coraline.jpg';
 import Img4 from '../img/padoruKazuma.jpg';
 import Img5 from '../img/salvo.png';
-import { Title, Flexbox } from '../styles/flexbox'
+import { Title, Flexbox, Bg } from '../styles/flexbox'
 import Head from 'next/head'
 
 
 
 export default function Flexbox1(){
     return(
-        <>
+        <> 
             <div className="flexbox1">
             <Head>
                 <title>Meu Site - Flexbox</title>
                 <link rel="icon" href={img} />
             </Head>
                 <Menu />
+                <Bg>
                 <Title>Flexbox</Title>
             <Flexbox>
                 <section className="flex">
@@ -48,7 +49,9 @@ export default function Flexbox1(){
                     </div>
                 </section>
                 </Flexbox>
+                </Bg>
             </div>
+           
         </>
     )
 }

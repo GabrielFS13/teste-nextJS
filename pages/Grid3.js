@@ -5,7 +5,7 @@ import Img2 from '../img/photo.jpg';
 import Img3 from '../img/pai_da_coraline.jpg';
 import Img4 from '../img/padoruKazuma.jpg';
 import Img5 from '../img/salvo.png';
-import { Grid3_Style, Title } from '../styles/grid3'
+import { Grid3_Style, Title, Bg } from '../styles/grid3'
 import Head from 'next/head'
 
 
@@ -18,6 +18,7 @@ export default function Grid2(){
             </Head>
             <Grid3_Style>
             <Menu />
+            <Bg>
             <Title>Grid 3</Title>
 
             <section className="grid3">
@@ -34,6 +35,7 @@ export default function Grid2(){
                     <p>Legenda 3</p>
                 </div>
             </section>
+            </Bg>
             </Grid3_Style>
         </div>
     )

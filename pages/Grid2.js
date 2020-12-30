@@ -5,7 +5,7 @@ import Img2 from '../img/photo.jpg';
 import Img3 from '../img/pai_da_coraline.jpg';
 import Img4 from '../img/padoruKazuma.jpg';
 import Img5 from '../img/salvo.png';
-import { Grid2_Style, Title } from '../styles/grid2'
+import { Grid2_Style, Title,Bg } from '../styles/grid2'
 import Head from 'next/head'
 
 
@@ -19,6 +19,7 @@ export default function Grid2(){
             </Head>
             <Menu />
             <Grid2_Style>
+            <Bg>
             <Title>Grid 2</Title>
             <section className="grid2">
               <div className="video">
@@ -44,6 +45,7 @@ export default function Grid2(){
                 </div>
               </div>
             </section>
+            </Bg>
             </Grid2_Style>
         </div>
     )

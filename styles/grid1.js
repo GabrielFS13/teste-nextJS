@@ -44,3 +44,13 @@ export const Title = styled.h1`
   margin-top: 100px;
   text-align: center;
 `
+
+export const Bg = styled.div`
+  margin: 0 auto;
+  width: 800px;
+  background-color: #B8E1FF;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+`

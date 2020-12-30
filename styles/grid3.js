@@ -38,3 +38,10 @@ export const Title = styled.h1`
   text-align: center;
   margin-top: 100px;
 `
+
+export const Bg = styled.div`
+  width: 820px;
+  background-color: #B8E1FF;
+  margin: 0 auto;
+  border-radius: 10px;
+`

@@ -5,7 +5,7 @@ import Img2 from '../img/photo.jpg';
 import Img3 from '../img/pai_da_coraline.jpg';
 import Img4 from '../img/padoruKazuma.jpg';
 import Img5 from '../img/salvo.png';
-import { Grid_Style, Title } from '../styles/grid1'
+import { Grid_Style, Title, Bg } from '../styles/grid1'
 import Head from 'next/head'
 
 
@@ -17,6 +17,7 @@ export default function Grid(){
                 <link rel="icon" href={img} />
             </Head>
             <Menu />
+            <Bg>
             <Title>Grid 1</Title>
             <section className="grid1">
                 <div>
@@ -60,6 +61,7 @@ export default function Grid(){
                     <p>Anuncio</p>
                 </div>
             </section>
+            </Bg>
         </Grid_Style>
     )
 }

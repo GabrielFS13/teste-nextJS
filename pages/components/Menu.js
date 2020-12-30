@@ -1,5 +1,7 @@
 import Link  from 'next/link';
 import img from './salvo.png';
+import {Button} from '../../styles/header'
+
 export default function Menu(){ 
     return(
         <header className="header">
@@ -11,23 +13,8 @@ export default function Menu(){
                 <nav>
                     <ul className="menu">
                         <li>
-                            <Link href="#">
-                                <a>Sobre</a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#">
-                                <a>Produtos</a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#">
-                                <a>Contato</a>
-                            </Link>
-                        </li>
-                        <li>
                             <Link href="/">
-                                <a>Voltar</a>
+                                <Button>Voltar</Button>
                             </Link>
                         </li>
                     </ul>
