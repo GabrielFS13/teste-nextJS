@@ -40,7 +40,7 @@ export const Title = styled.h1`
 `
 
 export const Bg = styled.div`
-  width: 820px;
+  width: 80%;
   background-color: #B8E1FF;
   margin: 0 auto;
   border-radius: 10px;

@@ -1,6 +1,6 @@
 import Link  from 'next/link';
 import img from './salvo.png';
-import {Button} from '../../styles/header'
+import {Button} from './style'
 
 export default function Menu(){ 
     return(

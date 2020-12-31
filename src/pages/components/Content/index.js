@@ -1,5 +1,5 @@
-import foto from '../../img/padoruKazuma.jpg'
-import {ContentStyle}  from '../../styles/content'
+import foto from '../../../assets/padoruKazuma.jpg'
+import {ContentStyle}  from './style'
 
 export default function Content(){
     return(
@@ -10,8 +10,8 @@ export default function Content(){
             </div>
             <div className="texto">
                 <p>
-                    Oi meu nome é Gabriel, sou um estudante e estou cursando Técnico em Desenvolvimento de Sistemas.
-                    O Durante o curso eu aprendi várias coisas, mas o que mais me deixou interessado na programação foi a
+                    Olá, meu nome é Gabriel, sou um estudante e estou cursando Técnico em Desenvolvimento de Sistemas.
+                    Durante o curso eu aprendi várias coisas, mas o que mais me deixou interessado na programação foi a
                     área da WEB.
                 </p>
             </div>

@@ -1,10 +1,8 @@
 import Menu from './components/Menu';
-import img from '../img/salvo.png'
-import Img1 from '../img/confused.jpg';
-import Img2 from '../img/photo.jpg';
-import Img3 from '../img/pai_da_coraline.jpg';
-import Img4 from '../img/padoruKazuma.jpg';
-import Img5 from '../img/salvo.png';
+import img from '../assets/salvo.png'
+import Img1 from '../assets/confused.jpg';
+import Img2 from '../assets/photo.jpg';
+import Img5 from '../assets/salvo.png';
 import { Grid3_Style, Title, Bg } from '../styles/grid3'
 import Head from 'next/head'
 

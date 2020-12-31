@@ -1,7 +1,7 @@
-import Header from './components/Header'
+import Header from './components/Header/index'
 import Head from 'next/head'
-import img from '../img/salvo.png'
-import Content from './components/Content'
+import img from '../assets/salvo.png'
+import Content from './components/Content/index'
 
 
 const App = () => {

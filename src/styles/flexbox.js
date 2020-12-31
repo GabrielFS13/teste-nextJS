@@ -30,7 +30,7 @@ p{
 `
 
 export const Bg = styled.div`
-    width: 800px;
+    width: 80%;
     margin: 0 auto;
     background-color: #B8E1FF;
     margin-top: 100px;

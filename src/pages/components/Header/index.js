@@ -1,5 +1,5 @@
 import Link  from 'next/link';
-import {Button} from '../../styles/header'
+import {Button} from './style'
 
 export default function Header(){
     return(

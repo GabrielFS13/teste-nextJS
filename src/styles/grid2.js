@@ -30,10 +30,11 @@ export const Grid2_Style = styled.div`
   }
   .sidebar > div {
     flex: 1 0 100px;
-    margin: 0 10px;
+    margin: 0 15px;
     width: 250px;
     height: 100px;
     padding: 15px;
+    border: none;
   }
 }
 
@@ -45,8 +46,9 @@ export const Title = styled.h1`
 `
 
 export const Bg = styled.div`
-  width: 820px;
+  width: 80%;
   background-color: #B8E1FF;
   margin: 0 auto;
   border-radius: 10px;
+
 `
