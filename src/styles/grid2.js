@@ -50,5 +50,11 @@ export const Bg = styled.div`
   background-color: #B8E1FF;
   margin: 0 auto;
   border-radius: 10px;
+  padding-bottom: 20px;
+
+
+  @media (max-width: 720px){
+      width: 100%;
+    }
 
 `

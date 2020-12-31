@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import React from 'react'
-
+//Isso para evitar erro no deploy na Vercel
 export default function react(){
     return( <div></div>)
 }

@@ -53,4 +53,8 @@ export const Bg = styled.div`
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 10px;
+
+  @media (max-width: 720px){
+      width: 100%;
+    }
 `

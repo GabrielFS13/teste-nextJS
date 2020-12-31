@@ -36,4 +36,8 @@ export const Bg = styled.div`
     margin-top: 100px;
     border-radius: 10px;
     padding-bottom: 15px;
+
+    @media (max-width: 720px){
+      width: 100%;
+    }
 `

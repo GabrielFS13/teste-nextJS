@@ -1,19 +1,22 @@
 import  styled from 'styled-components'
 import React from 'react'
-
+//Isso para evitar erro no deploy na Vercel
 export default function react(){
     return( <div></div>)
 }
 
 export const ContentStyle = styled.div`
+
     width: 80%;
     background-color: #B8E1FF;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: 150px auto;
     padding: 25px;
     border-radius: 15px;
+
 
     .foto{
         width: 120px;
