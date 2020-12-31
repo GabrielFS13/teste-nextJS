@@ -1,4 +1,9 @@
 import styled from 'styled-components'
+import React from 'react'
+
+export default function react(){
+    return( <div></div>)
+}
 
 export const Button = styled.a`
     padding: 5px;
