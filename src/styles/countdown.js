@@ -16,7 +16,7 @@ export const CountDiv = styled.div`
       padding: 10px;
       border-radius: 10px;
       width: 80%;
-      height: 50%;
+      height: 80%;
   }
 
   .container h2{
@@ -35,7 +35,8 @@ export const CountDiv = styled.div`
 
   .countdown{
       display: flex;
-      margin-top: 50px;
+      flex-wrap: wrap;
+      margin-top: 10px;
       text-align: center;
       justify-content: center;
   }
@@ -52,6 +53,7 @@ export const CountDiv = styled.div`
       font-style: 3em;
       font-weight: 500;
       border-radius: 50%;
+      margin-top: 25px;
   }
 
   .countdown div:before{
