@@ -9,7 +9,7 @@ export const CountDiv = styled.div`
     
   .container{
       position: absolute;
-      top: 50%;
+      top: 55%;
       left: 50%;
       transform: translate(-50%,-50%);
       background-color: #B8E1FF;
@@ -71,22 +71,22 @@ export const CountDiv = styled.div`
 
   .countdown div#dia:before{
 
-    content: 'Dias';
+    content: 'Dia(s)';
 
   }
   .countdown div#horas:before{
 
-    content: 'Horas';
+    content: 'Hora(s)';
 
     }
     .countdown div#minutos:before{
 
-content: 'Minutos';
+    content: 'Minuto(s)';
 
 }
 .countdown div#segundos:before{
 
-content: 'Segundos';
+    content: 'Segundo(s)';
 
 }
 
