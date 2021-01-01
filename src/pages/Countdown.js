@@ -36,7 +36,7 @@ export default function Countdown(){
             <CountDiv>
                 <Menu />
                 <div className="container">
-                    <h2><span>Contador para o Ano Novo!</span> 2021</h2>
+                    <h2><span>Contador para o Ano Novo!</span> 2022</h2>
                     <div className="countdown">
                         <div id="dia">NA</div>
                         <div id="horas">NA</div>
