@@ -161,6 +161,13 @@ export const CountDiv = styled.div`
       padding: 10px;
   }
 
+  @media (max-width: 720px){
+      .container{
+          margin-top: 40px;
+          height: 100%;
+      }
+  }
+
 @media (max-width: 350px){
     .container{
         margin-top: 50px;
