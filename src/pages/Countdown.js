@@ -24,11 +24,19 @@ export default function Countdown(){
         document.getElementById('horas').innerText = h;
         document.getElementById('minutos').innerText = m;
         document.getElementById('segundos').innerText = s;
+
+        document.querySelector("div#pDias").innerHTML = 365 - d;
+        document.querySelector("div#pHoras").innerHTML = 24 - h;
+        document.querySelector("div#pMinutos").innerHTML = 60 - m;
+        document.querySelector("div#pSegundos").innerHTML = 60 - s;
+        
+
     }
 
     setInterval(function (){
         newYear();
     },1000)
+    
      
 
     return(
@@ -38,10 +46,20 @@ export default function Countdown(){
                 <div className="container">
                     <h2><span>Contador para o Ano Novo!</span> 2022</h2>
                     <div className="countdown">
-                        <div id="dia">NA</div>
-                        <div id="horas">NA</div>
-                        <div id="minutos">NA</div>
-                        <div id="segundos">NA</div>
+                        <div id="dia"></div>
+                        <div id="horas"></div>
+                        <div id="minutos"></div>
+                        <div id="segundos"></div>
+                    </div>
+                </div>
+                
+                <div className="passou">
+                    <h2><span>Já se passaram... </span></h2>
+                    <div className="contador_dias">
+                        <div id="pDias"></div>
+                        <div id="pHoras"></div>
+                        <div id="pMinutos"></div>
+                        <div id="pSegundos"></div>
                     </div>
                 </div>
             </CountDiv>
